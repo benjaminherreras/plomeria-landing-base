@@ -492,8 +492,11 @@
       .footer-top { grid-template-columns: 1fr; }
       .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
       .nav-links, .nav-cta .phone-badge { display: none; }
-      .logo { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: calc(100vw - 160px); flex-shrink: 1; }
-      .logo-icon { width: 30px; height: 30px; flex-shrink: 0; }
+      nav { padding: 10px 0; }
+      .nav-inner { flex-wrap: wrap; row-gap: 8px; }
+      .logo { flex: 0 0 100%; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .logo-icon { width: 28px; height: 28px; flex-shrink: 0; }
+      .nav-cta { margin-left: auto; }
       .hero-stats { gap: 24px; flex-wrap: wrap; }
       .whyus-stats-overlay { flex-direction: column; gap: 8px; }
     }
