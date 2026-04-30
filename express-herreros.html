@@ -1039,9 +1039,8 @@
     document.querySelectorAll('[data-c-mail]').forEach(el => {
       el.href = 'mailto:' + CLIENTE.email;
     });
-  })();
-
   } catch(e) { console.warn("CLIENTE injection error:", e); }
+  })()
 
   /* ── Navbar scroll ── */
   const navbar = document.getElementById('navbar');
